@@ -12,5 +12,13 @@ public class ProductsPage {
 	public WebElement getCreatePdtBtn() {
 		return createPdtBtn;
 	}
+	
+
+	@FindBy(name="Search")
+	private WebElement searchEdt;
+
+	public WebElement getSearchBtn() {
+		return searchEdt;
+	}
 
 }
